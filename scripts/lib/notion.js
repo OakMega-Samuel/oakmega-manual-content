@@ -1,11 +1,12 @@
 /**
  * 最小的 Notion API client。
  *
- * 刻意不用 @notionhq/client：我們只打三種端點，而自己寫可以完全掌握限流與重試，
+ * 刻意不用 @notionhq/client：我們只打幾種端點，而自己寫可以完全掌握限流與重試，
  * 也讓 CI 的 `npm ci` 沒有任何相依套件要裝。
  *
- * API 版本固定在 2022-06-28——我們只走巢狀 page tree，不碰 database，
- * 因此不需要 2025-09-03 引入的 data source 那套改動，用最穩定的版本即可。
+ * API 版本固定在 2022-06-28。手冊母頁可能是一般 page（巢狀子頁）也可能是
+ * database（每一列是一頁，正文放在列頁面本身裡）——後者直接用
+ * `/databases/{id}/query` 一次查完，不需要 2025-09-03 引入的 data source 分層。
  */
 
 const NOTION_API = 'https://api.notion.com/v1';
@@ -127,6 +128,35 @@ export class NotionClient {
     return this.request(`/pages/${pageId}`);
   }
 
+  /**
+   * 取得 database 的中繼資料（標題等）。
+   * 呼叫時機：`retrievePage` 對某個 id 回報「這是 database 不是 page」之後。
+   */
+  async retrieveDatabase(databaseId) {
+    return this.request(`/databases/${databaseId}`);
+  }
+
+  /**
+   * 查出 database 底下所有列（row）。
+   * 每一列本身就是一個完整的 page 物件（含 properties、url、last_edited_time），
+   * 跟 `retrievePage` 的回傳形狀相同，後續處理可以直接沿用同一套邏輯。
+   */
+  async queryDatabase(databaseId) {
+    const results = [];
+    let cursor;
+
+    do {
+      const page = await this.request(`/databases/${databaseId}/query`, {
+        method: 'POST',
+        body: { page_size: 100, start_cursor: cursor },
+      });
+      results.push(...page.results);
+      cursor = page.has_more ? page.next_cursor : undefined;
+    } while (cursor);
+
+    return results;
+  }
+
   /** 自動翻頁抓完某個 block 的所有子 block。 */
   async listBlockChildren(blockId) {
     const blocks = [];
@@ -210,4 +240,20 @@ export function pageTitle(page) {
     .map((part) => part.plain_text ?? '')
     .join('')
     .trim();
+}
+
+/**
+ * 從 database 物件取標題。
+ * database 的標題跟 page 不同：不是藏在某個 property 裡，而是頂層的 `title` 欄位。
+ */
+export function databaseTitle(database) {
+  return (database?.title ?? [])
+    .map((part) => part.plain_text ?? '')
+    .join('')
+    .trim();
+}
+
+/** 判斷某個 NotionError 是不是「這個 id 是 database 不是 page」那種特定錯誤。 */
+export function isDatabaseNotPageError(err) {
+  return err instanceof NotionError && /is a database, not a page/i.test(err.message);
 }
