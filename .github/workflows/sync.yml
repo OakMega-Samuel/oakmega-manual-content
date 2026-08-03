@@ -1,0 +1,73 @@
+name: Sync from Notion
+
+on:
+  schedule:
+    # 每小時的第 17 分。刻意避開整點——整點是 GitHub 排程的尖峰，延遲會更嚴重。
+    # 注意：實際觸發本來就會延遲 5–30 分鐘，這是 GitHub 排程的已知行為，不是設定問題。
+    - cron: '17 * * * *'
+
+  # 手動觸發。兩個用途：
+  #   1. 在 Notion 改完想立刻看到效果，不必等下一輪 cron
+  #   2. public repo 連續 60 天沒有活動時，GitHub 會自動停用排程；手動跑一次就能救回來
+  workflow_dispatch:
+
+  # 改了同步邏輯就重跑一次，確認輸出沒被改壞。
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/sync.yml'
+
+# 同時只跑一個。前一輪還沒跑完就又被觸發的話，等它跑完再跑，
+# 不要取消——取消會留下寫到一半的 manual/ 目錄。
+concurrency:
+  group: notion-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 同步腳本零相依套件，所以這裡沒有 npm ci —— 少一個會壞的環節。
+
+      - name: 跑單元測試
+        run: node --test test/
+
+      - name: 從 Notion 同步
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_ROOT_PAGE_ID: ${{ vars.NOTION_ROOT_PAGE_ID }}
+        run: node scripts/sync.js --quiet
+
+      - name: 有實質變動才 commit
+        run: |
+          git config user.name 'notion-sync[bot]'
+          git config user.email 'notion-sync[bot]@users.noreply.github.com'
+          git add -A manual INDEX.json search.json
+
+          # 這道閘門是「不要每小時製造垃圾 commit」的關鍵。
+          # 它能成立的前提是同步輸出必須是決定性的——所以 front-matter 裡
+          # 沒有 synced_at 之類每次都變的欄位，見 scripts/lib/page-file.js。
+          if git diff --cached --quiet; then
+            echo "內容沒有變動，跳過 commit"
+            exit 0
+          fi
+
+          echo "變動檔案："
+          git diff --cached --name-status
+
+          git commit -m "docs(notion): 同步手冊內容
+
+          由 ${{ github.event_name }} 觸發。"
+          git push

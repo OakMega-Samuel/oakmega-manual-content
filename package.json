@@ -1,0 +1,15 @@
+{
+  "name": "oakmega-manual-content",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "把 Notion 手冊同步成 markdown 與檢索索引。零相依套件——CI 不需要 npm install。",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "sync": "node scripts/sync.js",
+    "sync:dry": "node scripts/sync.js --out .dry-run",
+    "test": "node --test test/"
+  }
+}
