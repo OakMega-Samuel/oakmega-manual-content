@@ -48,6 +48,19 @@ test('標題層級正確', () => {
   assert.equal(md, '# 大標\n\n## 中標\n\n### 小標');
 });
 
+test('heading_4 等 h1~h3 之外的標題層級也支援，而非默默消失', () => {
+  // 真實 Notion 資料裡遇到過 heading_4——這在寫渲染器當下的官方文件裡沒有，
+  // 但 API 就是會回傳。渲染器必須靠 heading_N 這個型別家族通用處理，
+  // 而不是列舉固定幾層，否則新層級的內容會整段消失且只留一則警告。
+  const md = renderBlocks([block('heading_4', { rich_text: [t('第四層')] })], ctx());
+  assert.equal(md, '#### 第四層');
+});
+
+test('heading 層級超過 markdown 的 h6 上限時夾住，不會產生壞掉的語法', () => {
+  const md = renderBlocks([block('heading_9', { rich_text: [t('極端情況')] })], ctx());
+  assert.equal(md, '###### 極端情況');
+});
+
 test('連續清單項緊湊排列，被打斷後重新編號', () => {
   const md = renderBlocks(
     [

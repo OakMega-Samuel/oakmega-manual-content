@@ -87,23 +87,26 @@ function renderBlock(block, ctx, numberedIndex) {
   const data = block[type] ?? {};
   const children = block.children ?? [];
 
+  // heading_1/2/3 是官方文件版本；heading_4 是實際同步時遇到的真實資料
+  // （Notion 之後加的，撰稿當下的官方文件沒提）。與其每次多一級就補一個 case，
+  // 用正規表示式吃掉整個 heading_N 家族；markdown 最深只到 h6，超過就夾住，
+  // 總比噴警告、內容整段消失好。
+  const headingMatch = type.match(/^heading_(\d+)$/);
+  if (headingMatch) {
+    const level = Math.min(Number(headingMatch[1]), 6);
+    const text = richText(data.rich_text, ctx);
+    const heading = `${'#'.repeat(level)} ${text}`;
+    // 可摺疊標題的內容攤平接在標題後面。
+    const body = renderChildren(children, ctx);
+    return body ? `${heading}\n\n${body}` : heading;
+  }
+
   switch (type) {
     case 'paragraph': {
       const text = richText(data.rich_text, ctx);
       const body = renderChildren(children, ctx);
       if (!text && !body) return null;
       return joinWithChildren(text, body);
-    }
-
-    case 'heading_1':
-    case 'heading_2':
-    case 'heading_3': {
-      const level = Number(type.slice(-1));
-      const text = richText(data.rich_text, ctx);
-      const heading = `${'#'.repeat(level)} ${text}`;
-      // 可摺疊標題的內容攤平接在標題後面。
-      const body = renderChildren(children, ctx);
-      return body ? `${heading}\n\n${body}` : heading;
     }
 
     case 'bulleted_list_item':
