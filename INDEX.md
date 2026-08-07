@@ -2,8 +2,8 @@
 
 > 這個檔案是自動產生的，內容來源是 Notion，每小時同步一次。不要手動編輯。
 
-共 75 頁，約 123,594 字。
-內容最後更新：2026-08-03T04:45:00.000Z
+共 75 頁，約 124,196 字。
+內容最後更新：2026-08-07T08:53:00.000Z
 
 ## 給 Claude 的取用方式
 
@@ -19,6 +19,8 @@
     [圖片] 自動顯示工作區內所有已串接的 Facebook 粉絲專頁帳號、Messenger 連結 [圖片] 點擊列表中的編輯按鈕，或是選擇粉專後，點擊右下方的編輯，即可進入設定頁面 [圖片] 點擊 新增按鈕 [圖片] 輸入按鈕文字 設定點擊行為，傳送按鈕文字或開啟指定連結 設定完成後點擊右上 儲存 按鈕 [圖片] 選單按鈕會顯示在 Messenger 底下，引導用戶快速點擊
   - **權限管理** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/537ba1d4.md
     [圖片] 點擊左下角的設定符號 點擊 權限管理 進入設定頁面 成員管理 新增成員 [圖片] 點擊成員管理列表右上角的 ＋新增成員 [圖片] 輸入新成員的 Email，設定通知信件語言 點擊 確認 後系統寄送信件至該 Email，成員加入列表 💡 備註：新增時一律預設為「一般成員」，若要更改權限，請於新增完成後進入該成員的編輯頁面設定 編輯成員 [圖片] 點擊列表中的編輯按鈕，或是選擇成員後，點擊…
+  - **OakMega SCRM AI Plugin** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/e9b0f87e.md
+    說明 OakMega SCRM AI Plugin 為 Claude 專用 AI Plugin，目前可提供 AI 數據分析服務，未來將持續開發並支援建立發布內容、活動企劃等功能。 目前此 Plugin 尚為測試版本，「不會」更改任何你在 OakMega Social CRM 的資訊，僅作為檢視或分析用途，請不用擔心造成後台資料變更問題。 如需使用或有任何問題請洽 OakMega 窗口。 安裝 Pl…
   - **優惠券內容設定** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/a917bdc2.md
     基本設定 [圖片] 優惠券名稱：顯示於前台標題 優惠券圖片：顯示於前台圖片 優惠券說明：顯示於標題下方的敘述文字 條款內容：顯示於底部條款區塊 💡 備註：編輯後會同步更改至所有優惠券，包含未領取、已領取、已使用的券面 發放設定 發放類型 [圖片] 設定會員獲得優惠券的方式： 會員主動領取：由會員手動點擊領取，才會獲得優惠券 後台設定發放：直接將優惠券發至指定會員的票券匣，會員收到後即可使用，不需…
   - **票券匣設定** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/43271466.md
@@ -131,8 +133,6 @@
     目錄 加入黑名單 [圖片] 點擊位於會員小卡右上角的選單，點擊加入黑名單，該 LINE 好友將從會員管理頁面中移除 [圖片] 切換至黑名單頁面 [圖片] 進入黑名單頁面，可看見該 LINE 好友已被加入黑名單 點擊會員小卡，仍可展開會員資訊欄，但日後發布文章時，將無法發布訊息給被加入黑名單的 LINE 好友。同時，LINE 好友也無法觸發聊天機器人。 💡 備註：被加入黑名單的 LINE 好友只是…
   - **標籤管理（2.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/324acab2.md
     目錄 標籤資料夾管理 [圖片] 點擊下拉式選單，選擇要新增標籤的資料夾位置 點擊紫框中的資料夾符號，進入資料夾管理頁面 [圖片] 點擊文字欄位，輸入資料夾的名稱 點擊顏色，可切換該資料夾的顏色 點擊排序符號，可移動資料夾的排列順序 點擊垃圾桶符號，可刪除該資料夾 點擊 ＋新增資料夾 按鈕，可新增資料夾 點擊完成，回到標籤管理頁面 💡 備註：資料夾名稱限於 30 字內 建立與刪除標籤 [圖片] 於…
-  - **LINE 群組對話（2.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/7347bcc3.md
-    目錄 開啟 LINE 官方帳號加入群組權限 [圖片] 點擊以下連結進入此 LINE 官方帳號管理登入頁面 LINE 官方帳號管理頁面 → [圖片] 登入後，點擊頁面右上角「設定」 [圖片] 進入設定頁面後，於「帳號設定」頁面中，找到「功能切換」的欄位 於「加入群組或多人聊天室」的欄位中，點擊「接受邀請加入群組或多人聊天室」 完成後，即可於群組或多人聊天室中，邀請 LINE 官方帳號加入群組 群組管…
   - **在圖文選單中使用分享連結** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/225292b5.md
     目錄 當您希望讓餐廳的菜單分享給更多人看見，可以運用分享功能來增加曝光。這樣不僅能讓您的 LINE 好友看到菜單資訊，還能透過他們的分享，將菜單資訊傳播給更多 LINE 用戶，這將為您的餐廳增加曝光度，進而吸引到更多客戶。 建立由 LINE 好友分享出去的訊息 [圖片] 新增歡迎訊息／關鍵字訊息聊天機器人，此聊天機器人的內容為由 LINE 好友分享出去的內容，分享對象為非官方帳號 LINE 好友，…
   - **在發布文章中使用分享連結** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/81664410.md
