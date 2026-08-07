@@ -1,7 +1,7 @@
 {
   "version": 1,
   "root_page_id": "ac043939ff4c4f45b5044bd669a23909",
-  "content_last_edited": "2026-08-07T08:53:00.000Z",
+  "content_last_edited": "2026-08-07T10:04:00.000Z",
   "page_count": 75,
   "tree": [
     {
@@ -502,7 +502,7 @@
       "depth": 1,
       "summary": "說明 OakMega SCRM AI Plugin 為 Claude 專用 AI Plugin，目前可提供 AI 數據分析服務，未來將持續開發並支援建立發布內容、活動企劃等功能。 目前此 Plugin 尚為測試版本，「不會」更改任何你在 OakMega Social CRM 的資訊，僅作為檢視或分析用途，請不用擔心造成後台資料變更問題。 如需使用或有任何問題請洽 OakMega 窗口。 安裝 Pl…",
       "notion_url": "https://app.notion.com/p/OakMega-SCRM-AI-Plugin-3a7ccd367ae8801ebc47e24ae9b0f87e",
-      "last_edited_time": "2026-08-07T08:53:00.000Z"
+      "last_edited_time": "2026-08-07T10:04:00.000Z"
     },
     {
       "path": "manual/a917bdc2.md",

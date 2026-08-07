@@ -1,7 +1,7 @@
 # OakMega 使用手冊（全文）
 
 > 自動產生，來源為 Notion，每小時同步。不要手動編輯。
-> 內容最後更新：2026-08-07T08:53:00.000Z
+> 內容最後更新：2026-08-07T10:04:00.000Z
 
 ---
 
@@ -156,20 +156,37 @@ OakMega SCRM AI Plugin 為 Claude 專用 AI Plugin，目前可提供 AI 數據�
 
 如需使用或有任何問題請洽 OakMega 窗口。
 
+---
+
 ## 安裝 Plugin
 
-1. 開啟 Claude Desktop 並切換到 Code 模式
+1. 下載 Claude 桌面版應用：[https://claude.com/download](https://claude.com/download)
+2. 開啟 Claude Desktop 並切換到 Code 模式
   [圖片]
-2. 點開 Customize → 左下角找到 Plugins → 點擊右上角 Add → 點擊 Add marketplace
+3. 點開 Customize → 左下角找到 Plugins → 點擊右上角 Add → 點擊 Add marketplace
   [圖片]
-3. 貼上 [https://github.com/oakmega/OakMega-SCRM-AI-Plugin](https://github.com/oakmega/OakMega-SCRM-AI-Plugin/tree/master) 並選擇
+4. 貼上 [https://github.com/oakmega/OakMega-SCRM-AI-Plugin](https://github.com/oakmega/OakMega-SCRM-AI-Plugin/tree/master) 並選擇
   [圖片]
-4. 找到剛剛安裝的 Plugin 並點擊 `+`
+5. 找到剛剛安裝的 Plugin 並點擊 `+`
   [圖片]
-5. 回到對話（記得左上角要是 Code），新增一個新的對話，輸入 `/` 並且找到 oakmega-crm 這個指令
+6. 回到對話（記得左上角要是 Code），新增一個新的對話，輸入 `/` 並且找到 oakmega-crm 這個指令
   [圖片]
-6. 在藍色字的後面，接著打你想要的指令
+7. 在藍色字的後面，接著打你想要的指令並送出即可
   [圖片]
+8. 建議於左下角將 Accept Edit 切換為 Auto，避免需要一直點擊同意 AI 的操作
+  [圖片]
+
+  [圖片]
+
+### 疑難排解
+
+> 💡 若在點擊送出時，出現選擇資料夾的頁面，請建立一個空白資料夾後繼續。
+>
+> 這是因為 Claude Code 需要位於一個資料夾內運作，生成之內容有可能也會放於該資料夾內。
+
+> 💡 若執行時，Claude 提示缺少 Node.js 等套件，可直接於對話中請 Claude 自行處理。
+>
+> 這是因為 Claude 需透過套件來執行程式碼，而電腦預設通常沒有這些資訊，所以需要先行安裝才能正常使用。
 
 ---
 
