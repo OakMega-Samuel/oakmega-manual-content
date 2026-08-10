@@ -1,7 +1,7 @@
 {
   "version": 1,
   "root_page_id": "ac043939ff4c4f45b5044bd669a23909",
-  "content_last_edited": "2026-08-07T10:04:00.000Z",
+  "content_last_edited": "2026-08-10T08:30:00.000Z",
   "page_count": 75,
   "tree": [
     {
@@ -610,7 +610,7 @@
       "depth": 1,
       "summary": "建立文章 [圖片] 點擊 +新增 建立文章，或點擊右下 編輯 進入文章編輯頁面 [圖片] 編輯頁共有 3 個頁籤： 文章設定：設定文章名稱、發布時間、發布對象 編輯訊息：設定文章內容，最多可使用 5 則訊息 互動模組：設定表情符號或 Quick Reply 模組，固定顯示於文章最後面 [圖片] 點擊右上角按鈕 取消：不儲存文章編輯內容，返回管理頁面 測試發布：將文章發送給指定的測試人員 儲存為草稿…",
       "notion_url": "https://app.notion.com/p/3-0-312ccd367ae8809fa48ee6480e4e3c68",
-      "last_edited_time": "2026-04-14T05:10:00.000Z"
+      "last_edited_time": "2026-08-10T08:30:00.000Z"
     },
     {
       "path": "manual/3a91bba4.md",
