@@ -51,7 +51,11 @@ jobs:
       # 同步腳本零相依套件，所以這裡沒有 npm ci —— 少一個會壞的環節。
 
       - name: 跑單元測試
-        run: node --test test/
+        # 這裡刻意列出檔案而不是傳 test/ 目錄。Node 22 起，--test 的位置參數
+        # 改當成 glob 樣式解讀，傳目錄會被當檔案去 require 而直接爆掉。
+        # 讓 shell 展開成明確清單，Node 20/22 都吃，而且不會順便去執行
+        # fake-notion.js、sample-manual.js 這兩個測試輔助模組。
+        run: node --test test/*.test.js
 
       - name: 從 Notion 同步
         env:

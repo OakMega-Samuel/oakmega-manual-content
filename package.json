@@ -10,6 +10,6 @@
   "scripts": {
     "sync": "node scripts/sync.js",
     "sync:dry": "node scripts/sync.js --out .dry-run",
-    "test": "node --test test/"
+    "test": "node --test test/*.test.js"
   }
 }
