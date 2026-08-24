@@ -8,7 +8,7 @@ on:
 
   # 手動觸發。兩個用途：
   #   1. 在 Notion 改完想立刻看到效果，不必等下一輪 cron
-  #   2. public repo 連續 60 天沒有活動時，GitHub 會自動停用排程；手動跑一次就能救回來
+  #   2. 保險用的逃生門——正常情況下心跳機制（見最後一步）就能避免排程被停用
   workflow_dispatch:
 
   # 改了同步邏輯就重跑一次，確認輸出沒被改壞。
@@ -27,17 +27,26 @@ concurrency:
 permissions:
   contents: write
 
+env:
+  # 內容連續這麼多天沒變動，就推一個心跳 commit。
+  # 目的是讓 repo 不要被 GitHub 判定為 inactive——public repo 連續 60 天
+  # 沒有 commit 活動，排程會被自動停用，而且不會通知你。
+  # 設 30 天是留一倍的安全邊際：就算某次心跳自己失敗了，下個月還有一次機會。
+  HEARTBEAT_AFTER_DAYS: '30'
+
 jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: '20'
+          # Node 20 已經 EOL。這裡跟 actions 的 runtime 是兩件事，
+          # 但一起升掉比較省事。
+          node-version: '22'
 
       # 同步腳本零相依套件，所以這裡沒有 npm ci —— 少一個會壞的環節。
 
@@ -50,7 +59,7 @@ jobs:
           NOTION_ROOT_PAGE_ID: ${{ vars.NOTION_ROOT_PAGE_ID }}
         run: node scripts/sync.js --quiet
 
-      - name: 有實質變動才 commit
+      - name: 有實質變動才 commit（否則按需推心跳）
         run: |
           git config user.name 'notion-sync[bot]'
           git config user.email 'notion-sync[bot]@users.noreply.github.com'
@@ -59,15 +68,34 @@ jobs:
           # 這道閘門是「不要每小時製造垃圾 commit」的關鍵。
           # 它能成立的前提是同步輸出必須是決定性的——所以 front-matter 裡
           # 沒有 synced_at 之類每次都變的欄位，見 scripts/lib/page-file.js。
-          if git diff --cached --quiet; then
-            echo "內容沒有變動，跳過 commit"
+          if ! git diff --cached --quiet; then
+            echo "變動檔案："
+            git diff --cached --name-status
+
+            git commit -m "docs(notion): 同步手冊內容
+
+          由 ${{ github.event_name }} 觸發。"
+            git push
             exit 0
           fi
 
-          echo "變動檔案："
-          git diff --cached --name-status
+          echo "內容沒有變動"
 
-          git commit -m "docs(notion): 同步手冊內容
+          # 走到這裡表示手冊已經一段時間沒動了。閘門本身沒問題，
+          # 但「太久沒有任何 commit」會讓 GitHub 停掉這個排程，
+          # 於是同步就靜悄悄地死掉——所以偶爾推個心跳把時鐘歸零。
+          days_idle=$(( ( $(date -u +%s) - $(git log -1 --format=%ct) ) / 86400 ))
+          echo "距離上一次 commit：${days_idle} 天（門檻 ${HEARTBEAT_AFTER_DAYS} 天）"
 
-          由 ${{ github.event_name }} 觸發。"
+          if [ "$days_idle" -lt "$HEARTBEAT_AFTER_DAYS" ]; then
+            echo "還沒到門檻，跳過 commit"
+            exit 0
+          fi
+
+          date -u +%Y-%m-%dT%H:%M:%SZ > .sync-heartbeat
+          git add .sync-heartbeat
+          git commit -m "chore(ci): 心跳 commit
+
+          手冊內容已 ${days_idle} 天沒有變動。這個 commit 不含任何內容變更，
+          只是為了避免排程被 GitHub 以 inactive 為由自動停用。"
           git push
