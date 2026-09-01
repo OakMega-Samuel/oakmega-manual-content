@@ -2,8 +2,8 @@
 
 > 這個檔案是自動產生的，內容來源是 Notion，每小時同步一次。不要手動編輯。
 
-共 75 頁，約 124,733 字。
-內容最後更新：2026-08-31T09:03:00.000Z
+共 75 頁，約 124,776 字。
+內容最後更新：2026-09-01T04:33:00.000Z
 
 ## 給 Claude 的取用方式
 
@@ -15,6 +15,8 @@
 ## 目錄
 
 - **OakMega 使用手冊** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/index.md
+  - **訊息格式設定（3.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/83611498.md
+    目錄 [圖片] [圖片] [圖片] 建立多元的訊息格式能夠讓您有更多與 LINE 好友互動的方式，以更有趣的方式增進與他們的黏著度，使得與您的官方帳號互動變得更加豐富有趣！ 🚪 傳送門：訊息格式能夠用在多個地方，可由下方連結前往說明指南 發布文章內容設定 → 聊天機器人內容設定 → 管理訊息格式 新增訊息 [圖片] 於中央點擊要新增的訊息格式 移動訊息 [圖片] 點擊訊息卡片右上角 上/下 按鈕…
   - **Messenger 選單** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/abbe1abd.md
     [圖片] 自動顯示工作區內所有已串接的 Facebook 粉絲專頁帳號、Messenger 連結 [圖片] 點擊列表中的編輯按鈕，或是選擇粉專後，點擊右下方的編輯，即可進入設定頁面 [圖片] 點擊 新增按鈕 [圖片] 輸入按鈕文字 設定點擊行為，傳送按鈕文字或開啟指定連結 設定完成後點擊右上 儲存 按鈕 [圖片] 選單按鈕會顯示在 Messenger 底下，引導用戶快速點擊
   - **權限管理** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/537ba1d4.md
@@ -55,8 +57,6 @@
     目錄 重新串接 [圖片] 若 meta 權限不足可能無法完整使用此功能，請先點擊右上角 重新串接 按鈕，進入通訊平台進行設定 [圖片] 點擊 Facebook / Instagram 帳號，於右側小卡點擊 重新串接 按鈕 [圖片] 依照步驟完成串接流程，返回留言機器人頁即可正常使用功能 資料夾管理 新增資料夾 [圖片] 點擊左側資料夾的 + 號 [圖片] 輸入資料夾名稱後點擊 確認 重新命名資料夾…
   - **追蹤連結** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/2c69f06a.md
     目錄 資料夾管理 新增資料夾 [圖片] 點擊左側資料夾的 + 號 [圖片] 輸入資料夾名稱後點擊確認 重新命名 [圖片] 點擊資料夾名稱右側的 … 按鈕，再點擊重新命名 [圖片] 輸入資料夾名稱後點擊確認 刪除資料夾 [圖片] 點擊資料夾名稱右側的 … 按鈕，再點擊刪除 [圖片] 確認要刪除之後，點擊刪除 💡 備註：刪除資料夾時，資料夾內的項目會一併被刪除，請小心使用。 建立追蹤連結 [圖片]…
-  - **訊息格式設定** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/37236392.md
-    目錄 [圖片] [圖片] [圖片] 建立多元的訊息格式能夠讓您有更多與 LINE 好友互動的方式，以更有趣的方式增進與他們的黏著度，使得與您的官方帳號互動變得更加豐富有趣！ 🚪 傳送門：訊息格式能夠被用於聊天機器人和發布文章中，可由下方連結前往說明指南 聊天機器人管理頁面 → 發布文章管理頁面 → 管理訊息格式 新增訊息格式 [圖片] 點擊中央 新增訊息 或左上角 ＋，選擇要建立的訊息格式 [圖…
   - **範本管理** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/bfa1db57.md
     目錄 資料夾管理 新增資料夾 [圖片] 點擊左側資料夾的 + 號 [圖片] 輸入資料夾名稱後點擊確認 重新命名 [圖片] 點擊資料夾名稱右側的 … 按鈕，再點擊重新命名 [圖片] 輸入資料夾名稱後點擊確認 刪除資料夾 [圖片] 點擊資料夾名稱右側的 … 按鈕，再點擊刪除 [圖片] 確認要刪除之後，點擊刪除 💡 備註：刪除資料夾時，資料夾內的項目會一併被刪除，請小心使用。 新增範本 [圖片] 選擇…
   - **客服系統訊息說明** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/d665e6c4.md
