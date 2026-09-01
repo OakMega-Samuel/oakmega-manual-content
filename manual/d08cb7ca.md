@@ -2,7 +2,7 @@
 title: 優惠券管理頁面
 notion_page_id: 392ccd367ae880b2ab5fcd98d08cb7ca
 notion_url: https://app.notion.com/p/392ccd367ae880b2ab5fcd98d08cb7ca
-last_edited_time: "2026-07-03T07:21:00.000Z"
+last_edited_time: "2026-09-01T10:18:00.000Z"
 breadcrumb:
   - OakMega 使用手冊
   - 優惠券管理頁面
