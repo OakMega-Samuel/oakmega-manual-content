@@ -1,14 +1,14 @@
 ---
-title: 聊天機器人管理頁面
+title: 聊天機器人管理頁面（2.0）
 notion_page_id: 97ea3d3a6a434bb288fe45a9ce03eaff
-notion_url: https://app.notion.com/p/97ea3d3a6a434bb288fe45a9ce03eaff
-last_edited_time: "2026-06-15T07:09:00.000Z"
+notion_url: https://app.notion.com/p/2-0-97ea3d3a6a434bb288fe45a9ce03eaff
+last_edited_time: "2026-09-03T09:31:00.000Z"
 breadcrumb:
   - OakMega 使用手冊
-  - 聊天機器人管理頁面
+  - 聊天機器人管理頁面（2.0）
 ---
 
-# 聊天機器人管理頁面
+# 聊天機器人管理頁面（2.0）
 
 **目錄**
 

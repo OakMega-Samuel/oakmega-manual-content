@@ -2,8 +2,8 @@
 
 > 這個檔案是自動產生的，內容來源是 Notion，每小時同步一次。不要手動編輯。
 
-共 75 頁，約 124,892 字。
-內容最後更新：2026-09-02T09:38:00.000Z
+共 78 頁，約 129,403 字。
+內容最後更新：2026-09-03T10:04:00.000Z
 
 ## 給 Claude 的取用方式
 
@@ -15,6 +15,12 @@
 ## 目錄
 
 - **OakMega 使用手冊** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/index.md
+  - **聊天機器人內容設定（3.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/a1ddc3cc.md
+    基本設定 [圖片] 聊天機器人名稱：僅用於後台管理管理，不會顯示給 LINE 好友 聊天機器人狀態：設定啟用 / 關閉，控制機器人是否可被觸發 聊天機器人時區：判斷時間的依據時區，會影響觸發期限、每週有效時段的判斷基準 限定條件 [圖片] 觸發期限 不限定：無期限限制，隨時可觸發 早於（含）：設定某個日期之前可觸發 晚於（含）：設定某個日期之後可觸發 介於（含）：設定起始與結束日期，僅區間內可觸發…
+  - **聊天機器人管理頁面（3.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/6f7c35a3.md
+    3.0 LINE 聊天機器人 [圖片] 聊天機器人除了能自訂回覆、對話互動，還能依據好友的行為精準觸發指定訊息。透過多元的觸發方式，好友可以用各種管道接收到專屬內容，傳遞訊息從來沒有那麼簡單。 聊天機器人列表 [圖片] 聊天機器人依觸發條件分為三種類型，可於左側列表切換： 歡迎訊息：LINE 好友加入官方帳號時觸發（含解除封鎖） 事件觸發機器人：LINE 好友傳送特定格式訊息時觸發，格式包含： 貼…
+  - **素材規格表** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/85223432.md
+    [資料庫：後台素材規格表]
   - **訊息格式設定（3.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/83611498.md
     目錄 [圖片] [圖片] [圖片] 建立多元的訊息格式能夠讓您有更多與 LINE 好友互動的方式，以更有趣的方式增進與他們的黏著度，使得與您的官方帳號互動變得更加豐富有趣！ 🚪 傳送門：訊息格式能夠用在多個地方，可由下方連結前往說明指南 發布文章內容設定 → 聊天機器人內容設定 → 管理訊息格式 新增訊息 [圖片] 於中央點擊要新增的訊息格式 移動訊息 [圖片] 點擊訊息卡片右上角 上/下 按鈕…
   - **Messenger 選單** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/abbe1abd.md
@@ -159,7 +165,7 @@
     目錄 發布設定 [圖片] 點擊下拉式選單以查看文章的發布對象以及發布狀態 點擊選單列中的項目，即會跳轉至該文章的管理頁面 發布對象 選擇 LINE 好友，文章將會發布至 LINE 好友的聊天室中。其中，發布對象又可分為「LINE 好友」以及「OakMega 分眾」 選擇 LINE 群組，文章將會發布至 LINE 官方帳號所在的群組中 發布狀態 全部文章：檢視所有發布狀態的文章 已發布：檢視所有已發…
   - **建立多元的訊息格式** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/d71e4927.md
     目錄 [圖片] [圖片] [圖片] 建立多元的訊息格式能夠讓您有更多與 LINE 好友互動的方式，以更有趣的方式增進與他們的黏著度，使得與您的官方帳號互動變得更加豐富有趣！ 🚪 傳送門：訊息格式能夠被用於聊天機器人和發布文章中，可由下方連結前往說明指南 聊天機器人管理頁面 → 發布文章管理頁面 → 如何建立一個新的訊息格式？ [圖片] 首先，在進入聊天機器人／發布文章設定頁面後，點擊其中一個訊息…
-  - **聊天機器人內容設定** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/e9523450.md
+  - **聊天機器人內容設定（2.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/e9523450.md
     目錄 基本設定 [圖片] 於「聊天機器人名稱」欄位輸入文字 ，來替此聊天機器人命名，此名稱與觸發的內容無關 於「觸發貼上標籤」的欄位，點擊 ＋選擇標籤，來設定 LINE 好友觸發此聊天機器人時，會被貼上的標籤 於「分享貼上標籤」的欄位，點擊 ＋選擇標籤，來設定 LINE 好友觸發此聊天機器人時，並透過點擊分享聊天機器人連結，打開分享頁面分享給其他 LINE 好友時，會被貼上的標籤，此功能需開通分享…
-  - **聊天機器人管理頁面** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/ce03eaff.md
+  - **聊天機器人管理頁面（2.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/ce03eaff.md
     目錄 [圖片] 聊天機器人除了能聊天、能對話互動，更能成為品牌的內容專區與知識庫；透過多元的觸發方式，好友可以用各種管道接收到專屬的內容，傳遞訊息從來沒有那麼簡單。 建立聊天機器人 [圖片] 由側邊欄點擊進入推廣圖示中的「LINE 聊天機器人」頁面，即可開始建立聊天機器人。 點擊希望建立的聊天機器人類型，聊天機器人依照觸發條件，分為三種類型：歡迎訊息、事件觸發訊息以及關鍵字聊天機器人 歡迎訊息 […

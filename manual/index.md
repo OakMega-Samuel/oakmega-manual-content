@@ -2,7 +2,7 @@
 title: OakMega 使用手冊
 notion_page_id: ac043939ff4c4f45b5044bd669a23909
 notion_url: https://app.notion.com/p/ac043939ff4c4f45b5044bd669a23909
-last_edited_time: "2026-09-01T04:33:00.000Z"
+last_edited_time: "2026-09-03T09:32:00.000Z"
 breadcrumb:
   - OakMega 使用手冊
 ---
