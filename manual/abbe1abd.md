@@ -1,14 +1,14 @@
 ---
-title: Messenger 選單
+title: Messenger 選單（2.0）
 notion_page_id: 3aeccd367ae88033b561f3ddabbe1abd
-notion_url: https://app.notion.com/p/Messenger-3aeccd367ae88033b561f3ddabbe1abd
-last_edited_time: "2026-08-07T07:52:00.000Z"
+notion_url: https://app.notion.com/p/Messenger-2-0-3aeccd367ae88033b561f3ddabbe1abd
+last_edited_time: "2026-09-07T10:20:00.000Z"
 breadcrumb:
   - OakMega 使用手冊
-  - Messenger 選單
+  - Messenger 選單（2.0）
 ---
 
-# Messenger 選單
+# Messenger 選單（2.0）
 
 [圖片]
 

@@ -2,8 +2,8 @@
 
 > 這個檔案是自動產生的，內容來源是 Notion，每小時同步一次。不要手動編輯。
 
-共 78 頁，約 129,403 字。
-內容最後更新：2026-09-03T15:09:00.000Z
+共 74 頁，約 123,766 字。
+內容最後更新：2026-09-07T10:20:00.000Z
 
 ## 給 Claude 的取用方式
 
@@ -23,7 +23,7 @@
     [資料庫：後台素材規格表]
   - **訊息格式設定（3.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/83611498.md
     目錄 [圖片] [圖片] [圖片] 建立多元的訊息格式能夠讓您有更多與 LINE 好友互動的方式，以更有趣的方式增進與他們的黏著度，使得與您的官方帳號互動變得更加豐富有趣！ 🚪 傳送門：訊息格式能夠用在多個地方，可由下方連結前往說明指南 發布文章內容設定 → 聊天機器人內容設定 → 管理訊息格式 新增訊息 [圖片] 於中央點擊要新增的訊息格式 移動訊息 [圖片] 點擊訊息卡片右上角 上/下 按鈕…
-  - **Messenger 選單** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/abbe1abd.md
+  - **Messenger 選單（2.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/abbe1abd.md
     [圖片] 自動顯示工作區內所有已串接的 Facebook 粉絲專頁帳號、Messenger 連結 [圖片] 點擊列表中的編輯按鈕，或是選擇粉專後，點擊右下方的編輯，即可進入設定頁面 [圖片] 點擊 新增按鈕 [圖片] 輸入按鈕文字 設定點擊行為，傳送按鈕文字或開啟指定連結 設定完成後點擊右上 儲存 按鈕 [圖片] 選單按鈕會顯示在 Messenger 底下，引導用戶快速點擊
   - **權限管理** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/537ba1d4.md
     [圖片] 點擊左下角的設定符號 點擊 權限管理 進入設定頁面 成員管理 新增成員 [圖片] 點擊成員管理列表右上角的 ＋新增成員 [圖片] 輸入新成員的 Email，設定通知信件語言 點擊 確認 後系統寄送信件至該 Email，成員加入列表 💡 備註：新增時一律預設為「一般成員」，若要更改權限，請於新增完成後進入該成員的編輯頁面設定 編輯成員 [圖片] 點擊列表中的編輯按鈕，或是選擇成員後，點擊…
@@ -125,9 +125,9 @@
     [圖片] 點擊「數據資料庫」，進入數據資料庫頁面 [圖片] 在數據資料庫中，顯示會員數相關數據： OakMega 會員數：經由加入通訊平台帳號、傳送訊息、點擊追蹤連結、填寫表單、手動匯入…等方式，紀錄至 OakMega 會員資料庫中的人 LINE 目標好友數：指未封鎖／刪除官方帳號的 LINE 好友（與 LINE 後台數據同步） LINE 封鎖數：此為 LINE 好友封鎖 LINE 官方帳號時採計…
   - **概覽** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/7cbb0544.md
     [圖片] 點擊「概覽」，進入概覽頁面 [圖片] 在概覽頁面中，顯示以下幾種數據： OakMega 會員數：經由加入通訊平台帳號、傳送訊息、點擊追蹤連結、填寫表單、手動匯入…等方式，紀錄至 OakMega 會員資料庫中的人 會員貼標率：身上有標籤的會員數／總會員數 本週活躍會員：會員在本週（過去 7 天至今）有傳送訊息至通訊平台帳號，即為本週活躍會員 LINE 好友成長：【與 LINE 後台數據同步…
-  - **圖文選單內容設定** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/36a0d852.md
+  - **圖文選單內容設定（2.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/36a0d852.md
     目錄 圖文選單設定 [圖片] 點擊「圖文選單名稱」下的文字欄位，輸入文字內容 點擊「圖文選單排程」下的「請選擇時間」，展開時間選擇畫面 [圖片] 點擊日期，選擇開始時間與結束時間 點擊 確認，完成「圖文選單排程」設定 💡 備註： 各圖文選單的排程時間不能有重疊的情形，若有重疊將無法建立該圖文選單 如想固定使用該圖文選單，能以較長的時間單位來設定圖文選單排程 [圖片] 點擊「圖文選單預設狀態」下的…
-  - **圖文選單管理頁面** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/77935b9f.md
+  - **圖文選單管理頁面（2.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/77935b9f.md
     [圖片] 點擊進入 LINE 預設圖文選單 [圖片] 進入 LINE 預設圖文選單頁面中，於圖文選單小卡上，可預覽圖文選單名稱、圖文選單排程及圖文選單狀態 💡 備註：OakMega Social CRM 的 LINE 預設圖文選單，會取代 LINE 官方帳號管理頁面 中的圖文選單，並設定到所有 LINE 好友身上，除了已套用分眾圖文選單的 LINE 好友 [圖片] 點擊圖文選單小卡，展開右側資訊…
   - **通訊平台** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/1b148cab.md
     [圖片] 點擊左下角的設定符號，展開側邊欄 [圖片] 點擊「通訊平台」，展開「通訊平台」設定頁面 [圖片] 於「加入帳號網址／QR code」點擊 QR code 符號，可下載 QR code 圖檔；點擊剪貼版，複製加入帳號網址。 💡 備註： 其他欄位為綁定 LINE 帳號與 OakMega Social CRM 之設定，請勿任意更改欄位中的內容 本月的發送訊息量與剩餘訊息量，由於更新頻率和 L…
@@ -135,10 +135,6 @@
     [圖片] 點擊左下角的設定符號，展開側邊欄 [圖片] 點擊「語言與時區」，展開「語言與時區」設定頁面 [圖片] 點擊「語言」欄位的下拉式選單，可切換語言至英文 💡 備註：OakMega Social CRM 系統的英文版本尚在完善中。建議選用繁體中文介面，並透過 Google 翻譯工具進行網頁翻譯。 [圖片] 點擊「時區」欄位的下拉式選單，點擊特定時區，即完成切換系統的時區
   - **我的帳號** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/5299dcca.md
     [圖片] 點擊左下角的設定符號 點擊 我的帳號 進入設定頁面 基本資訊 [圖片] Email 自動帶入登入 OakMega Social CRM 的信箱 名稱：自行輸入文字，主要顯示於系統內，及客服中心傳送訊息的名稱 大頭貼：可上傳圖片（非必填），主要顯示於系統內，及客服中心傳送訊息的名稱 通訊平台資訊 [圖片] 點擊選擇 LINE 帳號，可展開搜尋 LINE 帳號畫面 [圖片] 點擊輸入框，輸入…
-  - **黑名單** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/2a37eb8c.md
-    目錄 加入黑名單 [圖片] 點擊位於會員小卡右上角的選單，點擊加入黑名單，該 LINE 好友將從會員管理頁面中移除 [圖片] 切換至黑名單頁面 [圖片] 進入黑名單頁面，可看見該 LINE 好友已被加入黑名單 點擊會員小卡，仍可展開會員資訊欄，但日後發布文章時，將無法發布訊息給被加入黑名單的 LINE 好友。同時，LINE 好友也無法觸發聊天機器人。 💡 備註：被加入黑名單的 LINE 好友只是…
-  - **標籤管理（2.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/324acab2.md
-    目錄 標籤資料夾管理 [圖片] 點擊下拉式選單，選擇要新增標籤的資料夾位置 點擊紫框中的資料夾符號，進入資料夾管理頁面 [圖片] 點擊文字欄位，輸入資料夾的名稱 點擊顏色，可切換該資料夾的顏色 點擊排序符號，可移動資料夾的排列順序 點擊垃圾桶符號，可刪除該資料夾 點擊 ＋新增資料夾 按鈕，可新增資料夾 點擊完成，回到標籤管理頁面 💡 備註：資料夾名稱限於 30 字內 建立與刪除標籤 [圖片] 於…
   - **在圖文選單中使用分享連結** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/225292b5.md
     目錄 當您希望讓餐廳的菜單分享給更多人看見，可以運用分享功能來增加曝光。這樣不僅能讓您的 LINE 好友看到菜單資訊，還能透過他們的分享，將菜單資訊傳播給更多 LINE 用戶，這將為您的餐廳增加曝光度，進而吸引到更多客戶。 建立由 LINE 好友分享出去的訊息 [圖片] 新增歡迎訊息／關鍵字訊息聊天機器人，此聊天機器人的內容為由 LINE 好友分享出去的內容，分享對象為非官方帳號 LINE 好友，…
   - **在發布文章中使用分享連結** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/81664410.md
@@ -151,10 +147,6 @@
     目錄 分享功能的效果 [圖片] 分享功能能夠使 LINE 好友分享聊天機器人的訊息給其他好友，進而讓 LINE 官方帳號的好友數增加、發送優惠卷給更多人使用，或是讓更多人看見活動資訊，增加品牌的知名度和互動成效。 分享功能是基於歡迎訊息／關鍵字聊天機器人中的「分享聊天機器人連結」，因此，只要能夠將這個連結包裝在各種訊息格式之中，即可讓 LINE 好友打開分享訊息的頁面，並讓 LINE 好友選擇分享…
   - **進階模組－特效框設定** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/d7f5452b.md
     目錄 新增特效框 [圖片] 於側邊欄，點擊「模組商城」 [圖片] 於模組商城中，點擊「特效框」，進入設定頁面 [圖片] 點擊文字框，輸入特效框上要呈現的文字內容，最多可輸入 100 字 於「字級」欄位，輸入數字，以調整文字大小 於「顏色」欄位，輸入六位色碼，以調整文字顏色 拖曳拉桿，調整文字位置，調整方向分為左右和上下 [圖片] 點擊 ＋ ，新增同框照 [圖片] 點擊方框，上傳同框照中的圖片。圖片…
-  - **會員管理頁面（2.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/32ad67ab.md
-    目錄 會員資訊與歷程 [圖片] 點擊會員小卡來展開右側資訊欄，其中分為「會員資訊」和「會員歷程」 點擊右上角選單，可下載會員歷程資料與將該 LINE 好友加入黑名單 會員資訊 展開資訊欄後，可檢視「會員名稱」以及 「LINE User id」，點擊「LINE User id」旁邊的複製符號，即可複製該會員的「LINE User id」 標籤資訊 [圖片] 點擊「標籤資訊」，可編輯與檢視該 LINE…
-  - **會員篩選與排序（2.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/cb1fd43e.md
-    目錄 會員資料排序 [圖片] 點擊「排列依據」下拉式選單，可以選擇以「加入時間」和「活躍指數」來對 LINE 好友進行排序 活躍指數：根據該官方帳號在 OakMega 內的所有會員的互動指標做級分計算排列，以 1100 分表示，採加權計算好友的傳送訊息數、點擊連結數、分享數，數值為時間區間內會員的活躍指數。 會員資料篩選 [圖片] 點擊「篩選條件」來展開篩選設定介面 [圖片] 點擊「包含」或「排除…
   - **會員類別** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/f4057b10.md
     目錄 在 Social CRM 中，會員資料在不同狀態下，資料或傳訊狀態等等會有所差異，以下將統整在不同狀態下，對於會員資料的掌握度，如能夠掌握，以「🟢」表示；無法掌握，則以「🔴」表示。 對於會員的掌握程度又可分為以下五點： 基本資料（大頭貼、姓名、UUID…..） 一對一聊天、OakMega 發布文章傳送訊息 LINE 發布文章傳送訊息 可能有 Email 資料 顯示於 OakMega 會員…
   - **聊天機器人常見問題** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/465eda37.md
