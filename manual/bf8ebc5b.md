@@ -2,7 +2,7 @@
 title: 預約中心
 notion_page_id: 333ccd367ae880588d32cc1abf8ebc5b
 notion_url: https://app.notion.com/p/333ccd367ae880588d32cc1abf8ebc5b
-last_edited_time: "2026-08-31T09:03:00.000Z"
+last_edited_time: "2026-09-08T08:19:00.000Z"
 breadcrumb:
   - OakMega 使用手冊
   - 預約中心

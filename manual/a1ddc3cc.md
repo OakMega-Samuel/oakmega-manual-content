@@ -2,7 +2,7 @@
 title: 聊天機器人內容設定（3.0）
 notion_page_id: 3d0ccd367ae880658f98db03a1ddc3cc
 notion_url: https://app.notion.com/p/3-0-3d0ccd367ae880658f98db03a1ddc3cc
-last_edited_time: "2026-09-03T09:33:00.000Z"
+last_edited_time: "2026-09-08T08:18:00.000Z"
 breadcrumb:
   - OakMega 使用手冊
   - 聊天機器人內容設定（3.0）

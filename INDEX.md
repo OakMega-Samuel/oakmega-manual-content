@@ -2,8 +2,8 @@
 
 > 這個檔案是自動產生的，內容來源是 Notion，每小時同步一次。不要手動編輯。
 
-共 75 頁，約 126,916 字。
-內容最後更新：2026-09-08T02:45:00.000Z
+共 78 頁，約 135,789 字。
+內容最後更新：2026-09-08T09:11:00.000Z
 
 ## 給 Claude 的取用方式
 
@@ -15,8 +15,16 @@
 ## 目錄
 
 - **OakMega 使用手冊** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/index.md
-  - **圖文選單管理頁面（3.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/338bd3f0.md
-    LINE 圖文選單（3.0） [圖片] 圖文選單常駐於 LINE 聊天室下方，是好友最容易看見、也最容易點擊的入口。透過排程自動上下架、或針對特定分眾手動套用，同一個官方帳號可以讓不同的好友看到不同的選單內容。 圖文選單列表 [圖片] 圖文選單依套用方式分為兩種類型，可於上方分頁切換： 預設圖文選單：依排程時間自動套用給所有 LINE 好友（已套用分眾圖文選單的好友除外），同一時間只有一個排程生效…
+  - **通知設定** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/a3708f69.md
+    💡 備註：通知設定 為個人設定，僅影響自己的帳號，不會套用到同一組織內的其他成員；同一個人若同時登入多個工作區，也需要在各個工作區內分別設定 進入通知設定 [圖片] 於左側導覽列點擊 設定 於 個人設定 區塊點擊 通知設定 💡 備註：通知設定 歸類在 個人設定 底下，與 工作區設定（如通訊平台、權限管理）不同，只會套用到自己的帳號 開啟客服中心通知 [圖片] 點擊 客服中心通知 右側的開關，開…
+  - **會員旅程** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/f236d5ca.md
+    [圖片] 會員旅程可以在會員符合特定條件時，自動觸發一連串動作（傳送訊息、貼標、等待、分流…），常用於新好友歡迎流程、生日提醒、預約提醒等自動化情境。 建立旅程 [圖片] 點擊左上角 ＋建立旅程 選擇旅程類型：一次性旅程 或 常駐型旅程 💡 備註： 一次性旅程：只在指定的「進入旅程時間」觸發一次，時間到了系統會依條件篩出符合資格的會員，讓他們進入旅程 常駐型旅程：可長期運作，依「進入頻率設定」持…
+  - **會員專區** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/f912d156.md
+    會員專區 [圖片] 深度經營會員的必備模組，會員專區幫你養成忠誠顧客！會員打開 LINE 就能馬上知道自己的互動狀態，提升社群參與感。此模組可以連結其他模組，如優惠券專區、會員表單，並可根據品牌行銷檔期、活動來置放 Banner 與導流連結。設定好模組內容後，你將獲得專屬網址，可自由運用於行銷操作中。 進入會員專區 點擊左上角 模組商城 選單，再點擊 全部模組 下拉選單 於分類清單中點擊 會員專區…
+  - **會員增粉** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/29b48f28.md
+    [圖片] 透過好友邀請快速增加粉絲，找出社群意見領袖。在此模組中，可透過好友邀請制度，創造大量社群擴散；增粉排行榜與客製化的獎勵條件，協助打造遊戲化的社群體驗。設定好模組內容後，會取得會員增粉的專屬網址，可自由運用於行銷操作中；也可在關鍵字範本中引入此模組，當好友觸發關鍵字，系統就會自動觸發排行榜功能。 運作流程 會員增粉整體是 MGM（Member Get Member）的概念，讓系統可以追蹤每…
+  - **LINE 圖文選單（3.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/338bd3f0.md
+    [圖片] 圖文選單常駐於 LINE 聊天室下方，是好友最容易看見、也最容易點擊的入口。透過排程自動上下架、或針對特定分眾手動套用，同一個官方帳號可以讓不同的好友看到不同的選單內容。 圖文選單依套用方式分為兩種類型，可於上方分頁切換： 預設圖文選單：依排程時間自動套用給所有 LINE 好友（已套用分眾圖文選單的好友除外），同一時間只有一個排程生效 分眾圖文選單：沒有排程時間，需另外透過聊天機器人、客…
   - **聊天機器人內容設定（3.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/a1ddc3cc.md
     基本設定 [圖片] 聊天機器人名稱：僅用於後台管理管理，不會顯示給 LINE 好友 聊天機器人狀態：設定啟用 / 關閉，控制機器人是否可被觸發 聊天機器人時區：判斷時間的依據時區，會影響觸發期限、每週有效時段的判斷基準 限定條件 [圖片] 觸發期限 不限定：無期限限制，隨時可觸發 早於（含）：設定某個日期之前可觸發 晚於（含）：設定某個日期之後可觸發 介於（含）：設定起始與結束日期，僅區間內可觸發…
   - **聊天機器人管理頁面（3.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/6f7c35a3.md
@@ -133,8 +141,6 @@
     [圖片] 點擊進入 LINE 預設圖文選單 [圖片] 進入 LINE 預設圖文選單頁面中，於圖文選單小卡上，可預覽圖文選單名稱、圖文選單排程及圖文選單狀態 💡 備註：OakMega Social CRM 的 LINE 預設圖文選單，會取代 LINE 官方帳號管理頁面 中的圖文選單，並設定到所有 LINE 好友身上，除了已套用分眾圖文選單的 LINE 好友 [圖片] 點擊圖文選單小卡，展開右側資訊…
   - **通訊平台** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/1b148cab.md
     [圖片] 點擊左下角的設定符號，展開側邊欄 [圖片] 點擊「通訊平台」，展開「通訊平台」設定頁面 [圖片] 於「加入帳號網址／QR code」點擊 QR code 符號，可下載 QR code 圖檔；點擊剪貼版，複製加入帳號網址。 💡 備註： 其他欄位為綁定 LINE 帳號與 OakMega Social CRM 之設定，請勿任意更改欄位中的內容 本月的發送訊息量與剩餘訊息量，由於更新頻率和 L…
-  - **語言與時區** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/6a431b7c.md
-    [圖片] 點擊左下角的設定符號，展開側邊欄 [圖片] 點擊「語言與時區」，展開「語言與時區」設定頁面 [圖片] 點擊「語言」欄位的下拉式選單，可切換語言至英文 💡 備註：OakMega Social CRM 系統的英文版本尚在完善中。建議選用繁體中文介面，並透過 Google 翻譯工具進行網頁翻譯。 [圖片] 點擊「時區」欄位的下拉式選單，點擊特定時區，即完成切換系統的時區
   - **我的帳號** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/5299dcca.md
     [圖片] 點擊左下角的設定符號 點擊 我的帳號 進入設定頁面 基本資訊 [圖片] Email 自動帶入登入 OakMega Social CRM 的信箱 名稱：自行輸入文字，主要顯示於系統內，及客服中心傳送訊息的名稱 大頭貼：可上傳圖片（非必填），主要顯示於系統內，及客服中心傳送訊息的名稱 通訊平台資訊 [圖片] 點擊選擇 LINE 帳號，可展開搜尋 LINE 帳號畫面 [圖片] 點擊輸入框，輸入…
   - **在圖文選單中使用分享連結** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/225292b5.md

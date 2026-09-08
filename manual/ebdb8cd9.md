@@ -2,7 +2,7 @@
 title: 群組發文內容設定（3.0）
 notion_page_id: 325ccd367ae88022862aee70ebdb8cd9
 notion_url: https://app.notion.com/p/3-0-325ccd367ae88022862aee70ebdb8cd9
-last_edited_time: "2026-03-28T07:14:00.000Z"
+last_edited_time: "2026-09-08T08:19:00.000Z"
 breadcrumb:
   - OakMega 使用手冊
   - 群組發文內容設定（3.0）
