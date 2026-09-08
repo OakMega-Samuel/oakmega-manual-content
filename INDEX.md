@@ -2,8 +2,8 @@
 
 > 這個檔案是自動產生的，內容來源是 Notion，每小時同步一次。不要手動編輯。
 
-共 78 頁，約 135,789 字。
-內容最後更新：2026-09-08T09:11:00.000Z
+共 79 頁，約 136,379 字。
+內容最後更新：2026-09-08T10:00:00.000Z
 
 ## 給 Claude 的取用方式
 
@@ -15,6 +15,8 @@
 ## 目錄
 
 - **OakMega 使用手冊** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/index.md
+  - **訊息測試人員設定（3.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/2b5bbe04.md
+    [圖片] 訊息測試人員是 3.0 發文功能專用的測試名單。把常用的內部人員或帳號加入名單後，測試發文時可以直接選擇他們接收，不必每次都重新搜尋 LINE 帳號。 進入訊息測試人員設定 [圖片] 點擊左側導覽列最下方的 設定（齒輪圖示） 在「工作區設定」底下點擊 訊息測試人員設定 💡 備註：3.0 與舊版（2.0）的測試人員名單彼此獨立，任一版本的新增、刪除都不會同步到另一個版本 新增訊息測試人員…
   - **通知設定** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/a3708f69.md
     💡 備註：通知設定 為個人設定，僅影響自己的帳號，不會套用到同一組織內的其他成員；同一個人若同時登入多個工作區，也需要在各個工作區內分別設定 進入通知設定 [圖片] 於左側導覽列點擊 設定 於 個人設定 區塊點擊 通知設定 💡 備註：通知設定 歸類在 個人設定 底下，與 工作區設定（如通訊平台、權限管理）不同，只會套用到自己的帳號 開啟客服中心通知 [圖片] 點擊 客服中心通知 右側的開關，開…
   - **會員旅程** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/f236d5ca.md

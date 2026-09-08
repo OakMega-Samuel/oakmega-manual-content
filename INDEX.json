@@ -1,14 +1,20 @@
 {
   "version": 1,
   "root_page_id": "ac043939ff4c4f45b5044bd669a23909",
-  "content_last_edited": "2026-09-08T09:11:00.000Z",
-  "page_count": 78,
+  "content_last_edited": "2026-09-08T10:00:00.000Z",
+  "page_count": 79,
   "tree": [
     {
       "path": "manual/index.md",
       "title": "OakMega 使用手冊",
       "summary": "",
       "children": [
+        {
+          "path": "manual/2b5bbe04.md",
+          "title": "訊息測試人員設定（3.0）",
+          "summary": "[圖片] 訊息測試人員是 3.0 發文功能專用的測試名單。把常用的內部人員或帳號加入名單後，測試發文時可以直接選擇他們接收，不必每次都重新搜尋 LINE 帳號。 進入訊息測試人員設定 [圖片] 點擊左側導覽列最下方的 設定（齒輪圖示） 在「工作區設定」底下點擊 訊息測試人員設定 💡 備註：3.0 與舊版（2.0）的測試人員名單彼此獨立，任一版本的新增、刪除都不會同步到另一個版本 新增訊息測試人員…",
+          "children": []
+        },
         {
           "path": "manual/a3708f69.md",
           "title": "通知設定",
@@ -484,7 +490,19 @@
       "depth": 0,
       "summary": "",
       "notion_url": "https://app.notion.com/p/ac043939ff4c4f45b5044bd669a23909",
-      "last_edited_time": "2026-09-08T09:11:00.000Z"
+      "last_edited_time": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "path": "manual/2b5bbe04.md",
+      "title": "訊息測試人員設定（3.0）",
+      "breadcrumb": [
+        "OakMega 使用手冊",
+        "訊息測試人員設定（3.0）"
+      ],
+      "depth": 1,
+      "summary": "[圖片] 訊息測試人員是 3.0 發文功能專用的測試名單。把常用的內部人員或帳號加入名單後，測試發文時可以直接選擇他們接收，不必每次都重新搜尋 LINE 帳號。 進入訊息測試人員設定 [圖片] 點擊左側導覽列最下方的 設定（齒輪圖示） 在「工作區設定」底下點擊 訊息測試人員設定 💡 備註：3.0 與舊版（2.0）的測試人員名單彼此獨立，任一版本的新增、刪除都不會同步到另一個版本 新增訊息測試人員…",
+      "notion_url": "https://app.notion.com/p/3-0-3d5ccd367ae881899549c2272b5bbe04",
+      "last_edited_time": "2026-09-08T10:00:00.000Z"
     },
     {
       "path": "manual/a3708f69.md",
@@ -1240,7 +1258,7 @@
       "depth": 1,
       "summary": "[圖片] 點擊左下角的設定符號，展開側邊欄 [圖片] 點擊「通訊平台」，展開「通訊平台」設定頁面 [圖片] 於「加入帳號網址／QR code」點擊 QR code 符號，可下載 QR code 圖檔；點擊剪貼版，複製加入帳號網址。 💡 備註： 其他欄位為綁定 LINE 帳號與 OakMega Social CRM 之設定，請勿任意更改欄位中的內容 本月的發送訊息量與剩餘訊息量，由於更新頻率和 L…",
       "notion_url": "https://app.notion.com/p/2e9b0eeb7c634e1e9a9775881b148cab",
-      "last_edited_time": "2025-02-24T10:17:00.000Z"
+      "last_edited_time": "2026-09-08T10:00:00.000Z"
     },
     {
       "path": "manual/5299dcca.md",
