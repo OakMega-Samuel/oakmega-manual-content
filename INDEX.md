@@ -2,8 +2,8 @@
 
 > 這個檔案是自動產生的，內容來源是 Notion，每小時同步一次。不要手動編輯。
 
-共 74 頁，約 123,766 字。
-內容最後更新：2026-09-07T10:20:00.000Z
+共 75 頁，約 126,916 字。
+內容最後更新：2026-09-08T02:45:00.000Z
 
 ## 給 Claude 的取用方式
 
@@ -15,6 +15,8 @@
 ## 目錄
 
 - **OakMega 使用手冊** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/index.md
+  - **圖文選單管理頁面（3.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/338bd3f0.md
+    LINE 圖文選單（3.0） [圖片] 圖文選單常駐於 LINE 聊天室下方，是好友最容易看見、也最容易點擊的入口。透過排程自動上下架、或針對特定分眾手動套用，同一個官方帳號可以讓不同的好友看到不同的選單內容。 圖文選單列表 [圖片] 圖文選單依套用方式分為兩種類型，可於上方分頁切換： 預設圖文選單：依排程時間自動套用給所有 LINE 好友（已套用分眾圖文選單的好友除外），同一時間只有一個排程生效…
   - **聊天機器人內容設定（3.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/a1ddc3cc.md
     基本設定 [圖片] 聊天機器人名稱：僅用於後台管理管理，不會顯示給 LINE 好友 聊天機器人狀態：設定啟用 / 關閉，控制機器人是否可被觸發 聊天機器人時區：判斷時間的依據時區，會影響觸發期限、每週有效時段的判斷基準 限定條件 [圖片] 觸發期限 不限定：無期限限制，隨時可觸發 早於（含）：設定某個日期之前可觸發 晚於（含）：設定某個日期之後可觸發 介於（含）：設定起始與結束日期，僅區間內可觸發…
   - **聊天機器人管理頁面（3.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/6f7c35a3.md
