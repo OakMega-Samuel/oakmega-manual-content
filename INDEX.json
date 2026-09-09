@@ -1,7 +1,7 @@
 {
   "version": 1,
   "root_page_id": "ac043939ff4c4f45b5044bd669a23909",
-  "content_last_edited": "2026-09-09T06:49:00.000Z",
+  "content_last_edited": "2026-09-09T14:06:00.000Z",
   "page_count": 79,
   "tree": [
     {
@@ -490,7 +490,7 @@
       "depth": 0,
       "summary": "",
       "notion_url": "https://app.notion.com/p/ac043939ff4c4f45b5044bd669a23909",
-      "last_edited_time": "2026-09-09T06:49:00.000Z"
+      "last_edited_time": "2026-09-09T13:57:00.000Z"
     },
     {
       "path": "manual/e429e69d.md",
@@ -574,7 +574,7 @@
       "depth": 1,
       "summary": "[圖片] 圖文選單常駐於 LINE 聊天室下方，是好友最容易看見、也最容易點擊的入口。透過排程自動上下架、或針對特定分眾手動套用，同一個官方帳號可以讓不同的好友看到不同的選單內容。 圖文選單依套用方式分為兩種類型，可於上方分頁切換： 預設圖文選單：依排程時間自動套用給所有 LINE 好友（已套用分眾圖文選單的好友除外），同一時間只有一個排程生效 分眾圖文選單：沒有排程時間，需另外透過聊天機器人、客…",
       "notion_url": "https://app.notion.com/p/LINE-3-0-3d4ccd367ae8817ba735c070338bd3f0",
-      "last_edited_time": "2026-09-08T06:40:00.000Z"
+      "last_edited_time": "2026-09-09T14:06:00.000Z"
     },
     {
       "path": "manual/a1ddc3cc.md",
