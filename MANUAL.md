@@ -1,7 +1,7 @@
 # OakMega 使用手冊（全文）
 
 > 自動產生，來源為 Notion，每小時同步。不要手動編輯。
-> 內容最後更新：2026-09-08T10:00:00.000Z
+> 內容最後更新：2026-09-09T04:37:00.000Z
 
 ---
 
@@ -3544,9 +3544,9 @@ OakMega SCRM AI Plugin 為 Claude 專用 AI Plugin，目前可提供 AI 數據�
 
 ---
 
-## OakMega 使用手冊 › 黑名單 (3.0)
+## OakMega 使用手冊 › 黑名單
 
-原文：https://app.notion.com/p/3-0-2f7ccd367ae880508709db05052c8e41
+原文：https://app.notion.com/p/2f7ccd367ae880508709db05052c8e41
 
 **目錄**
 
@@ -3632,9 +3632,9 @@ OakMega SCRM AI Plugin 為 Claude 專用 AI Plugin，目前可提供 AI 數據�
 
 ---
 
-## OakMega 使用手冊 › 標籤管理（3.0）
+## OakMega 使用手冊 › 標籤管理
 
-原文：https://app.notion.com/p/3-0-2e0ccd367ae880da888ed4b290d622a1
+原文：https://app.notion.com/p/2e0ccd367ae880da888ed4b290d622a1
 
 **目錄**
 
@@ -3880,9 +3880,9 @@ OakMega SCRM AI Plugin 為 Claude 專用 AI Plugin，目前可提供 AI 數據�
 
 ---
 
-## OakMega 使用手冊 › 會員管理（3.0）
+## OakMega 使用手冊 › 會員管理
 
-原文：https://app.notion.com/p/3-0-2c4ccd367ae880428150d55f833aa76a
+原文：https://app.notion.com/p/2c4ccd367ae880428150d55f833aa76a
 
 **目錄**
 

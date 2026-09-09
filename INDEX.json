@@ -1,7 +1,7 @@
 {
   "version": 1,
   "root_page_id": "ac043939ff4c4f45b5044bd669a23909",
-  "content_last_edited": "2026-09-08T10:00:00.000Z",
+  "content_last_edited": "2026-09-09T04:37:00.000Z",
   "page_count": 79,
   "tree": [
     {
@@ -149,7 +149,7 @@
         },
         {
           "path": "manual/052c8e41.md",
-          "title": "黑名單 (3.0)",
+          "title": "黑名單",
           "summary": "目錄 什麼是黑名單？ 將會員加入黑名單，不會刪除該會員資料，仍然可以貼標、移除標籤，允許黑名單會員使用網頁型工具、LIFF 模組、觸發自動轉客服等，僅限制「系統主動互動」的行為。 具體限制如下： 無法觸發「會員旅程」 無法觸發「聊天機器人」 「LINE 發布文章」對象若選擇 OakMega 分眾，會排除黑名單成員 加入黑名單 [圖片] 點擊會員小卡右上角的 … 按鈕，點擊 加入黑名單，該會員將從會…",
           "children": []
         },
@@ -161,7 +161,7 @@
         },
         {
           "path": "manual/90d622a1.md",
-          "title": "標籤管理（3.0）",
+          "title": "標籤管理",
           "summary": "目錄 資料夾管理 新增資料夾 [圖片] 點擊左側資料夾的 + 號 [圖片] 輸入資料夾名稱 選擇資料夾顏色，將影響到該資料夾內的標籤顏色 設定是否開啟「編輯管理權限」，允許一般成員可以新增、編輯、移動該資料夾內的標籤 設定是否開啟「手動調整權限」，允許一般成員可以對會員新增、移除此資料夾內的標籤 編輯資料夾 [圖片] 點擊資料夾名稱右側的 … 按鈕，再點擊 編輯 [圖片] 編輯資料夾名稱、顏色、一…",
           "children": []
         },
@@ -173,7 +173,7 @@
         },
         {
           "path": "manual/833aa76a.md",
-          "title": "會員管理（3.0）",
+          "title": "會員管理",
           "summary": "目錄 會員管理 共分為 5 個頁面，依會員來源（通訊平台）區分，同一位會員可能同時存在於多個通訊平台頁面中。 OakMega 會員管理：系統中所有會員，包含「未綁定任何通訊平台」的會員 LINE 會員管理：曾通過 LINE Login 的會員（不一定是 LINE 好友） Facebook 會員管理：從 Facebook 管道加入的會員 Instagram 會員管理：從 Instagram 管道加入…",
           "children": []
         },
@@ -770,15 +770,15 @@
     },
     {
       "path": "manual/052c8e41.md",
-      "title": "黑名單 (3.0)",
+      "title": "黑名單",
       "breadcrumb": [
         "OakMega 使用手冊",
-        "黑名單 (3.0)"
+        "黑名單"
       ],
       "depth": 1,
       "summary": "目錄 什麼是黑名單？ 將會員加入黑名單，不會刪除該會員資料，仍然可以貼標、移除標籤，允許黑名單會員使用網頁型工具、LIFF 模組、觸發自動轉客服等，僅限制「系統主動互動」的行為。 具體限制如下： 無法觸發「會員旅程」 無法觸發「聊天機器人」 「LINE 發布文章」對象若選擇 OakMega 分眾，會排除黑名單成員 加入黑名單 [圖片] 點擊會員小卡右上角的 … 按鈕，點擊 加入黑名單，該會員將從會…",
-      "notion_url": "https://app.notion.com/p/3-0-2f7ccd367ae880508709db05052c8e41",
-      "last_edited_time": "2026-02-02T15:10:00.000Z"
+      "notion_url": "https://app.notion.com/p/2f7ccd367ae880508709db05052c8e41",
+      "last_edited_time": "2026-09-09T04:11:00.000Z"
     },
     {
       "path": "manual/df6940e6.md",
@@ -794,15 +794,15 @@
     },
     {
       "path": "manual/90d622a1.md",
-      "title": "標籤管理（3.0）",
+      "title": "標籤管理",
       "breadcrumb": [
         "OakMega 使用手冊",
-        "標籤管理（3.0）"
+        "標籤管理"
       ],
       "depth": 1,
       "summary": "目錄 資料夾管理 新增資料夾 [圖片] 點擊左側資料夾的 + 號 [圖片] 輸入資料夾名稱 選擇資料夾顏色，將影響到該資料夾內的標籤顏色 設定是否開啟「編輯管理權限」，允許一般成員可以新增、編輯、移動該資料夾內的標籤 設定是否開啟「手動調整權限」，允許一般成員可以對會員新增、移除此資料夾內的標籤 編輯資料夾 [圖片] 點擊資料夾名稱右側的 … 按鈕，再點擊 編輯 [圖片] 編輯資料夾名稱、顏色、一…",
-      "notion_url": "https://app.notion.com/p/3-0-2e0ccd367ae880da888ed4b290d622a1",
-      "last_edited_time": "2026-09-08T08:19:00.000Z"
+      "notion_url": "https://app.notion.com/p/2e0ccd367ae880da888ed4b290d622a1",
+      "last_edited_time": "2026-09-09T04:11:00.000Z"
     },
     {
       "path": "manual/c7f438f3.md",
@@ -818,15 +818,15 @@
     },
     {
       "path": "manual/833aa76a.md",
-      "title": "會員管理（3.0）",
+      "title": "會員管理",
       "breadcrumb": [
         "OakMega 使用手冊",
-        "會員管理（3.0）"
+        "會員管理"
       ],
       "depth": 1,
       "summary": "目錄 會員管理 共分為 5 個頁面，依會員來源（通訊平台）區分，同一位會員可能同時存在於多個通訊平台頁面中。 OakMega 會員管理：系統中所有會員，包含「未綁定任何通訊平台」的會員 LINE 會員管理：曾通過 LINE Login 的會員（不一定是 LINE 好友） Facebook 會員管理：從 Facebook 管道加入的會員 Instagram 會員管理：從 Instagram 管道加入…",
-      "notion_url": "https://app.notion.com/p/3-0-2c4ccd367ae880428150d55f833aa76a",
-      "last_edited_time": "2026-07-08T07:46:00.000Z"
+      "notion_url": "https://app.notion.com/p/2c4ccd367ae880428150d55f833aa76a",
+      "last_edited_time": "2026-09-09T04:11:00.000Z"
     },
     {
       "path": "manual/87326ab3.md",
@@ -1210,7 +1210,7 @@
       "depth": 1,
       "summary": "[圖片] 點擊「數據資料庫」，進入數據資料庫頁面 [圖片] 在數據資料庫中，顯示會員數相關數據： OakMega 會員數：經由加入通訊平台帳號、傳送訊息、點擊追蹤連結、填寫表單、手動匯入…等方式，紀錄至 OakMega 會員資料庫中的人 LINE 目標好友數：指未封鎖／刪除官方帳號的 LINE 好友（與 LINE 後台數據同步） LINE 封鎖數：此為 LINE 好友封鎖 LINE 官方帳號時採計…",
       "notion_url": "https://app.notion.com/p/6c9ee07c4be149d7a31c561d07c4da33",
-      "last_edited_time": "2026-08-07T07:53:00.000Z"
+      "last_edited_time": "2026-09-09T04:37:00.000Z"
     },
     {
       "path": "manual/7cbb0544.md",

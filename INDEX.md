@@ -3,7 +3,7 @@
 > 這個檔案是自動產生的，內容來源是 Notion，每小時同步一次。不要手動編輯。
 
 共 79 頁，約 136,379 字。
-內容最後更新：2026-09-08T10:00:00.000Z
+內容最後更新：2026-09-09T04:37:00.000Z
 
 ## 給 Claude 的取用方式
 
@@ -61,15 +61,15 @@
     建立文章 [圖片] 點擊 +新增 建立文章，或點擊右下 編輯 進入文章編輯頁面 [圖片] 編輯頁共有 3 個頁籤： 文章設定：設定文章名稱、發布時間、發布對象 編輯訊息：設定文章內容，最多可使用 5 則訊息 互動模組：設定表情符號或 Quick Reply 模組，固定顯示於文章最後面 [圖片] 點擊右上角按鈕 取消：不儲存文章編輯內容，返回管理頁面 測試發布：將文章發送給指定的測試人員 儲存為草稿…
   - **發布文章管理頁面（3.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/3a91bba4.md
     目錄 文章列表 選單列 [圖片] 依照文章狀態分類 全部文章：所有文章 已發布：已成功發布的文章，不可編輯、刪除 發布中：正在發送中的文章，不可編輯、刪除 已預約：已排程預約發布的文章，發布前 2 分鐘不可編輯、刪除 草稿：尚未發布但已儲存草稿的文章，可編輯、刪除 發布失敗：未成功發布的文章，不可編輯、可刪除 切換瀏覽模式 [圖片] Table view（預設）：以表格呈現，方便比較數據 Card…
-  - **黑名單 (3.0)** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/052c8e41.md
+  - **黑名單** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/052c8e41.md
     目錄 什麼是黑名單？ 將會員加入黑名單，不會刪除該會員資料，仍然可以貼標、移除標籤，允許黑名單會員使用網頁型工具、LIFF 模組、觸發自動轉客服等，僅限制「系統主動互動」的行為。 具體限制如下： 無法觸發「會員旅程」 無法觸發「聊天機器人」 「LINE 發布文章」對象若選擇 OakMega 分眾，會排除黑名單成員 加入黑名單 [圖片] 點擊會員小卡右上角的 … 按鈕，點擊 加入黑名單，該會員將從會…
   - **客服數據中心** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/df6940e6.md
     即時儀表板 [圖片] 每次進入頁面或在左側進行篩選時，即時顯示當下的客服數據 篩選功能 [圖片] 左側可篩選狀態、組織、負責成員、帳號，在中間呈現對應的客服數據 客服對話數量 [圖片] 不同客服狀態的總對話數量 狀態分布圖 [圖片] 顯示不同狀態的客服對話數量，可選擇以組織、負責成員、帳號進行分類 組織對話分布圖 [圖片] 顯示各組織的客服對話數量，可選擇以狀態、負責成員、帳號進行分類 成員對話分…
-  - **標籤管理（3.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/90d622a1.md
+  - **標籤管理** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/90d622a1.md
     目錄 資料夾管理 新增資料夾 [圖片] 點擊左側資料夾的 + 號 [圖片] 輸入資料夾名稱 選擇資料夾顏色，將影響到該資料夾內的標籤顏色 設定是否開啟「編輯管理權限」，允許一般成員可以新增、編輯、移動該資料夾內的標籤 設定是否開啟「手動調整權限」，允許一般成員可以對會員新增、移除此資料夾內的標籤 編輯資料夾 [圖片] 點擊資料夾名稱右側的 … 按鈕，再點擊 編輯 [圖片] 編輯資料夾名稱、顏色、一…
   - **LINE 群組對話（3.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/c7f438f3.md
     目錄 權限設定 開啟 LINE 官方帳號加入群組權限 [圖片] 點擊以下連結進入此 LINE 官方帳號管理登入頁面 LINE 官方帳號管理頁面 → [圖片] 登入後，點擊頁面右上角「設定」 [圖片] 進入設定頁面後，於「帳號設定」頁面中，找到「功能切換」的欄位 於「加入群組或多人聊天室」的欄位中，點擊「接受邀請加入群組或多人聊天室」 完成後，即可於群組或多人聊天室中，邀請 LINE 官方帳號加入群…
-  - **會員管理（3.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/833aa76a.md
+  - **會員管理** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/833aa76a.md
     目錄 會員管理 共分為 5 個頁面，依會員來源（通訊平台）區分，同一位會員可能同時存在於多個通訊平台頁面中。 OakMega 會員管理：系統中所有會員，包含「未綁定任何通訊平台」的會員 LINE 會員管理：曾通過 LINE Login 的會員（不一定是 LINE 好友） Facebook 會員管理：從 Facebook 管道加入的會員 Instagram 會員管理：從 Instagram 管道加入…
   - **Facebook / Instagram 留言機器人** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/87326ab3.md
     目錄 重新串接 [圖片] 若 meta 權限不足可能無法完整使用此功能，請先點擊右上角 重新串接 按鈕，進入通訊平台進行設定 [圖片] 點擊 Facebook / Instagram 帳號，於右側小卡點擊 重新串接 按鈕 [圖片] 依照步驟完成串接流程，返回留言機器人頁即可正常使用功能 資料夾管理 新增資料夾 [圖片] 點擊左側資料夾的 + 號 [圖片] 輸入資料夾名稱後點擊 確認 重新命名資料夾…
