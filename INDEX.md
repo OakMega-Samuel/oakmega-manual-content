@@ -2,8 +2,8 @@
 
 > 這個檔案是自動產生的，內容來源是 Notion，每小時同步一次。不要手動編輯。
 
-共 79 頁，約 136,379 字。
-內容最後更新：2026-09-09T04:37:00.000Z
+共 79 頁，約 137,543 字。
+內容最後更新：2026-09-09T06:49:00.000Z
 
 ## 給 Claude 的取用方式
 
@@ -15,6 +15,8 @@
 ## 目錄
 
 - **OakMega 使用手冊** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/index.md
+  - **通訊平台** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/e429e69d.md
+    [圖片] 這裡集中呈現目前已串接至 OakMega Social CRM 的所有通訊平台帳號，包含 LINE、Facebook、Instagram、WhatsApp 與簡訊（Every8d），可在此查看各帳號的基本資訊、訊息使用量與串接狀態。 平台總覽與欄位說明 已串接的平台會依類型分區塊顯示：LINE、Facebook & Instagram、WhatsApp、Every8d 各平台顯示的欄位不…
   - **訊息測試人員設定（3.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/2b5bbe04.md
     [圖片] 訊息測試人員是 3.0 發文功能專用的測試名單。把常用的內部人員或帳號加入名單後，測試發文時可以直接選擇他們接收，不必每次都重新搜尋 LINE 帳號。 進入訊息測試人員設定 [圖片] 點擊左側導覽列最下方的 設定（齒輪圖示） 在「工作區設定」底下點擊 訊息測試人員設定 💡 備註：3.0 與舊版（2.0）的測試人員名單彼此獨立，任一版本的新增、刪除都不會同步到另一個版本 新增訊息測試人員…
   - **通知設定** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/a3708f69.md
@@ -141,8 +143,6 @@
     目錄 圖文選單設定 [圖片] 點擊「圖文選單名稱」下的文字欄位，輸入文字內容 點擊「圖文選單排程」下的「請選擇時間」，展開時間選擇畫面 [圖片] 點擊日期，選擇開始時間與結束時間 點擊 確認，完成「圖文選單排程」設定 💡 備註： 各圖文選單的排程時間不能有重疊的情形，若有重疊將無法建立該圖文選單 如想固定使用該圖文選單，能以較長的時間單位來設定圖文選單排程 [圖片] 點擊「圖文選單預設狀態」下的…
   - **圖文選單管理頁面（2.0）** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/77935b9f.md
     [圖片] 點擊進入 LINE 預設圖文選單 [圖片] 進入 LINE 預設圖文選單頁面中，於圖文選單小卡上，可預覽圖文選單名稱、圖文選單排程及圖文選單狀態 💡 備註：OakMega Social CRM 的 LINE 預設圖文選單，會取代 LINE 官方帳號管理頁面 中的圖文選單，並設定到所有 LINE 好友身上，除了已套用分眾圖文選單的 LINE 好友 [圖片] 點擊圖文選單小卡，展開右側資訊…
-  - **通訊平台** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/1b148cab.md
-    [圖片] 點擊左下角的設定符號，展開側邊欄 [圖片] 點擊「通訊平台」，展開「通訊平台」設定頁面 [圖片] 於「加入帳號網址／QR code」點擊 QR code 符號，可下載 QR code 圖檔；點擊剪貼版，複製加入帳號網址。 💡 備註： 其他欄位為綁定 LINE 帳號與 OakMega Social CRM 之設定，請勿任意更改欄位中的內容 本月的發送訊息量與剩餘訊息量，由於更新頻率和 L…
   - **我的帳號** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/5299dcca.md
     [圖片] 點擊左下角的設定符號 點擊 我的帳號 進入設定頁面 基本資訊 [圖片] Email 自動帶入登入 OakMega Social CRM 的信箱 名稱：自行輸入文字，主要顯示於系統內，及客服中心傳送訊息的名稱 大頭貼：可上傳圖片（非必填），主要顯示於系統內，及客服中心傳送訊息的名稱 通訊平台資訊 [圖片] 點擊選擇 LINE 帳號，可展開搜尋 LINE 帳號畫面 [圖片] 點擊輸入框，輸入…
   - **在圖文選單中使用分享連結** — https://raw.githubusercontent.com/OakMega-Samuel/oakmega-manual-content/main/manual/225292b5.md

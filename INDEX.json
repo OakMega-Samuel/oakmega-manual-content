@@ -1,7 +1,7 @@
 {
   "version": 1,
   "root_page_id": "ac043939ff4c4f45b5044bd669a23909",
-  "content_last_edited": "2026-09-09T04:37:00.000Z",
+  "content_last_edited": "2026-09-09T06:49:00.000Z",
   "page_count": 79,
   "tree": [
     {
@@ -9,6 +9,12 @@
       "title": "OakMega 使用手冊",
       "summary": "",
       "children": [
+        {
+          "path": "manual/e429e69d.md",
+          "title": "通訊平台",
+          "summary": "[圖片] 這裡集中呈現目前已串接至 OakMega Social CRM 的所有通訊平台帳號，包含 LINE、Facebook、Instagram、WhatsApp 與簡訊（Every8d），可在此查看各帳號的基本資訊、訊息使用量與串接狀態。 平台總覽與欄位說明 已串接的平台會依類型分區塊顯示：LINE、Facebook & Instagram、WhatsApp、Every8d 各平台顯示的欄位不…",
+          "children": []
+        },
         {
           "path": "manual/2b5bbe04.md",
           "title": "訊息測試人員設定（3.0）",
@@ -388,12 +394,6 @@
           "children": []
         },
         {
-          "path": "manual/1b148cab.md",
-          "title": "通訊平台",
-          "summary": "[圖片] 點擊左下角的設定符號，展開側邊欄 [圖片] 點擊「通訊平台」，展開「通訊平台」設定頁面 [圖片] 於「加入帳號網址／QR code」點擊 QR code 符號，可下載 QR code 圖檔；點擊剪貼版，複製加入帳號網址。 💡 備註： 其他欄位為綁定 LINE 帳號與 OakMega Social CRM 之設定，請勿任意更改欄位中的內容 本月的發送訊息量與剩餘訊息量，由於更新頻率和 L…",
-          "children": []
-        },
-        {
           "path": "manual/5299dcca.md",
           "title": "我的帳號",
           "summary": "[圖片] 點擊左下角的設定符號 點擊 我的帳號 進入設定頁面 基本資訊 [圖片] Email 自動帶入登入 OakMega Social CRM 的信箱 名稱：自行輸入文字，主要顯示於系統內，及客服中心傳送訊息的名稱 大頭貼：可上傳圖片（非必填），主要顯示於系統內，及客服中心傳送訊息的名稱 通訊平台資訊 [圖片] 點擊選擇 LINE 帳號，可展開搜尋 LINE 帳號畫面 [圖片] 點擊輸入框，輸入…",
@@ -490,7 +490,19 @@
       "depth": 0,
       "summary": "",
       "notion_url": "https://app.notion.com/p/ac043939ff4c4f45b5044bd669a23909",
-      "last_edited_time": "2026-09-08T10:00:00.000Z"
+      "last_edited_time": "2026-09-09T06:49:00.000Z"
+    },
+    {
+      "path": "manual/e429e69d.md",
+      "title": "通訊平台",
+      "breadcrumb": [
+        "OakMega 使用手冊",
+        "通訊平台"
+      ],
+      "depth": 1,
+      "summary": "[圖片] 這裡集中呈現目前已串接至 OakMega Social CRM 的所有通訊平台帳號，包含 LINE、Facebook、Instagram、WhatsApp 與簡訊（Every8d），可在此查看各帳號的基本資訊、訊息使用量與串接狀態。 平台總覽與欄位說明 已串接的平台會依類型分區塊顯示：LINE、Facebook & Instagram、WhatsApp、Every8d 各平台顯示的欄位不…",
+      "notion_url": "https://app.notion.com/p/3d6ccd367ae881fe8845e190e429e69d",
+      "last_edited_time": "2026-09-09T06:49:00.000Z"
     },
     {
       "path": "manual/2b5bbe04.md",
@@ -1247,18 +1259,6 @@
       "summary": "[圖片] 點擊進入 LINE 預設圖文選單 [圖片] 進入 LINE 預設圖文選單頁面中，於圖文選單小卡上，可預覽圖文選單名稱、圖文選單排程及圖文選單狀態 💡 備註：OakMega Social CRM 的 LINE 預設圖文選單，會取代 LINE 官方帳號管理頁面 中的圖文選單，並設定到所有 LINE 好友身上，除了已套用分眾圖文選單的 LINE 好友 [圖片] 點擊圖文選單小卡，展開右側資訊…",
       "notion_url": "https://app.notion.com/p/2-0-601dfc01a82b47f784c9763077935b9f",
       "last_edited_time": "2026-09-07T10:19:00.000Z"
-    },
-    {
-      "path": "manual/1b148cab.md",
-      "title": "通訊平台",
-      "breadcrumb": [
-        "OakMega 使用手冊",
-        "通訊平台"
-      ],
-      "depth": 1,
-      "summary": "[圖片] 點擊左下角的設定符號，展開側邊欄 [圖片] 點擊「通訊平台」，展開「通訊平台」設定頁面 [圖片] 於「加入帳號網址／QR code」點擊 QR code 符號，可下載 QR code 圖檔；點擊剪貼版，複製加入帳號網址。 💡 備註： 其他欄位為綁定 LINE 帳號與 OakMega Social CRM 之設定，請勿任意更改欄位中的內容 本月的發送訊息量與剩餘訊息量，由於更新頻率和 L…",
-      "notion_url": "https://app.notion.com/p/2e9b0eeb7c634e1e9a9775881b148cab",
-      "last_edited_time": "2026-09-08T10:00:00.000Z"
     },
     {
       "path": "manual/5299dcca.md",
