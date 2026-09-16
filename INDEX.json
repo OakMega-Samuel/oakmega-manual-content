@@ -1,7 +1,7 @@
 {
   "version": 1,
   "root_page_id": "ac043939ff4c4f45b5044bd669a23909",
-  "content_last_edited": "2026-09-09T14:06:00.000Z",
+  "content_last_edited": "2026-09-16T13:11:00.000Z",
   "page_count": 79,
   "tree": [
     {
@@ -646,7 +646,7 @@
       "depth": 1,
       "summary": "[圖片] 點擊左下角的設定符號 點擊 權限管理 進入設定頁面 成員管理 新增成員 [圖片] 點擊成員管理列表右上角的 ＋新增成員 [圖片] 輸入新成員的 Email，設定通知信件語言 點擊 確認 後系統寄送信件至該 Email，成員加入列表 💡 備註：新增時一律預設為「一般成員」，若要更改權限，請於新增完成後進入該成員的編輯頁面設定 編輯成員 [圖片] 點擊列表中的編輯按鈕，或是選擇成員後，點擊…",
       "notion_url": "https://app.notion.com/p/3acccd367ae880d2af14dd17537ba1d4",
-      "last_edited_time": "2026-09-08T08:19:00.000Z"
+      "last_edited_time": "2026-09-16T13:11:00.000Z"
     },
     {
       "path": "manual/e9b0f87e.md",
